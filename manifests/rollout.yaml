@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/violeta2002/ci_cd_lab:latest
+          image: ghcr.io/violeta2002/go-simple-webserver@sha256:851ab24fa0c85f444b2e1312d71d2e455c1d017e985b56b89687b11de2eaf840
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
